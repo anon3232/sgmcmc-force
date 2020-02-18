@@ -29,15 +29,4 @@ All the samplers are vectorized and use ```jit``` for increased performance, wit
 See the notebook ```Gaussian_example_jax.ipynb``` for a comparison between SVGD and SGLD+R.
 
 
-### Citation
 
-If you find this code useful for your research, please consider citing
-
-```
-@inproceedings{gallego2018sgmcmc,
-  author = {Victor Gallego and David Rios Insua},
-  title = {Stochastic Gradient MCMC with Repulsive Forces},
-  booktitle = {Bayesian Deep Learning Workshop, Neural Information and Processing Systems (NIPS)},
-  year = {2018},
-}
-```
